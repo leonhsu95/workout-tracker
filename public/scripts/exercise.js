@@ -127,6 +127,7 @@ function handleToastAnimationEnd() {
 }
 
 function clearInputs() {
+  workoutTypeSelect.selectedIndex = 0;
   cardioNameInput.value = "";
   nameInput.value = "";
   setsInput.value = "";

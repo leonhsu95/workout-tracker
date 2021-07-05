@@ -4,7 +4,7 @@ Link to the deployed application can be tested here on Heroku: [Workout Tracker 
 
 ## Description
 
-Workout Tracker is a simple app that helps you log all the exercises you have created, stores them into a NOSQL Database. You can store both Resistance and Cardio exercises with their unique information and data fields and finally mark them as complete when done.
+Workout Tracker is a simple app that helps you log all the exercises you have created, stores them into a NoSQL Database. You can store both Resistance and Cardio exercises with their unique information and data fields and finally mark them as complete when done.
 
 ## Table of Contents
 
