@@ -27,9 +27,10 @@ function populateChart(data) {
 
     // Use JavaScript's `Intl` object to help format dates
     return new Intl.DateTimeFormat('en-AU', {
-      weekday: 'short',
+      // weekday: 'short',
       month: 'short',
       day: 'numeric',
+      hour: 'numeric', minute: 'numeric',
     }).format(date);
   });
 
@@ -39,7 +40,7 @@ function populateChart(data) {
       labels,
       datasets: [
         {
-          label: 'Workout Duration In Minutes',
+          label: 'Total workout duration (mins)',
           backgroundColor: 'red',
           borderColor: 'red',
           data: durations,
@@ -67,7 +68,7 @@ function populateChart(data) {
       labels,
       datasets: [
         {
-          label: 'Kilograms',
+          label: 'Total weight lifted (kg)',
           data: kilograms,
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
