@@ -1,6 +1,6 @@
 # Workout Tracker
 
-Link to the deployed application can be tested here on Heroku: [Workout Tracker App](https://fitness-tracker-lh.herokuapp.com/) and the project repository can be viewed here: [Workout Tracker Repo](https://github.com/leonhsu95/fitness-tracker).
+Link to the deployed application can be tested here on Heroku: [Workout Tracker App](https://workout-tracker-lh.herokuapp.com/) and the project repository can be viewed here: [Workout Tracker Repo](https://github.com/leonhsu95/workout-tracker).
 
 ## Description
 
@@ -24,7 +24,7 @@ To install the files for testing into your local repo, using Git Bash Terminal:
 2) Clone with SSH by
 
 ```GitBash Commands
-git clone git@github.com:leonhsu95/fitness-tracker.git
+git clone git@github.com:leonhsu95/workout-tracker.git
  ```
 
 Additionally, please install [NodeJS](https://nodejs.org/en/) and the below npm packages
