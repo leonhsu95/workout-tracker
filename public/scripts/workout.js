@@ -35,13 +35,12 @@ function tallyExercises(exercises) {
 
 function formatDate(date) {
   const options = {
-    weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric"
   };
 
-  return new Date(date).toLocaleDateString(options);
+  return new Date(date).toLocaleDateString("en-AU", options);
 }
 
 function renderWorkoutSummary(summary) {
@@ -49,12 +48,12 @@ function renderWorkoutSummary(summary) {
 
   const workoutKeyMap = {
     date: "Date",
-    totalDuration: "Total Workout Duration",
+    totalDuration: "Total Workout Duration (min)",
     numExercises: "Exercises Performed",
-    totalWeight: "Total Weight Lifted",
+    totalWeight: "Total Weight Lifted (kg)",
     totalSets: "Total Sets Performed",
     totalReps: "Total Reps Performed",
-    totalDistance: "Total Distance Covered"
+    totalDistance: "Total Distance Covered (km)"
   };
 
   Object.keys(summary).forEach(key => {

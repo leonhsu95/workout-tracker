@@ -46,6 +46,7 @@ function handleWorkoutTypeChange(event) {
     resistanceForm.classList.add("d-none");
   }
 
+  validateInputs();
 }
 
 function validateInputs() {

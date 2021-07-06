@@ -442,3 +442,8 @@ form > button {
     right: -320px;
   }
 }
+
+.btn-adjust{
+  line-height: 1.2;
+  display: inline-table;
+}

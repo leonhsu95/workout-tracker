@@ -55,7 +55,6 @@ The project should look like this:
 ![Application Screenshot 2](public/screenshots/screenshot2.png)  
 ![Application Screenshot 3](public/screenshots/screenshot3.png)  
 ![Application Screenshot 4](public/screenshots/screenshot4.png)  
-![Application Screenshot 5](public/screenshots/screenshot5.png)  
 
 ## License
 

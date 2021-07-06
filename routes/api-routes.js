@@ -12,7 +12,6 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 router.put("/api/workouts/:id", ({ body, params }, res) => {
-  console.log("PARAMS", body, params);
 
   db.Workout.findOneAndUpdate(
     { _id: params.id },
