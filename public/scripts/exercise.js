@@ -46,7 +46,6 @@ function handleWorkoutTypeChange(event) {
     resistanceForm.classList.add("d-none");
   }
 
-  validateInputs();
 }
 
 function validateInputs() {
@@ -117,8 +116,8 @@ async function handleFormSubmit(event) {
   }
 
   await API.addExercise(workoutData);
-  clearInputs();
   toast.classList.add("success");
+  clearInputs();
 }
 
 function handleToastAnimationEnd() {
