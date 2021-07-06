@@ -40,7 +40,7 @@ function populateChart(data) {
       labels,
       datasets: [
         {
-          label: 'Total workout duration (mins)',
+          label: 'Total workout duration (min)',
           backgroundColor: 'red',
           borderColor: 'red',
           data: durations,
