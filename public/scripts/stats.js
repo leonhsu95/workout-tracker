@@ -16,7 +16,7 @@ function calculateTotalWeight(data) {
 }
 
 function populateChart(data) {
-  const durations = data.map(({ totalDuration }) => totalDuration);
+  const durations = data.reverse().map(({ totalDuration }) => totalDuration);
   const kilograms = calculateTotalWeight(data);
 
   const line = document.querySelector('#canvas').getContext('2d');
